@@ -2,7 +2,7 @@
 Just A Rather Very Intelligent System
 
 ***
-## English description project:
+## English project description:
 
 
 ## Decrição em português do projeto:
