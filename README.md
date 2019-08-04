@@ -26,3 +26,31 @@ Há, também, um projeto chamdo Jarvis, porém, só roda no Windows! Fala e exec
 Quero ter e dar, aos desenvolvedores interessados, liberdade para criarmos como quisermos, então criei esse repositório para compartilharmos códigos para testes e irmos montando o assistent, em python e node.
 
 ***OBS: Sim, eu sei, a ideia é BEM complexa, por isso conto com a ajuda de desenvolvendores interessados***
+
+## Objetivos/Passos
+- [x] Reconhecimento de voz. (gsr.py)
+- [ ] Reconhecimento de voz. (node)
+- [x] Fazer o JARVIS falar. (ttspeech.py)
+- [ ] Fazer o JARVIS falar. (node)
+- [ ] Fazer perguntas, ao JARVIS e ele responder falando. (python)
+- [ ] Fazer perguntas, ao JARVIS e ele responder falando. (node)
+
+OBS passo 3: Vou usar o Dialogflow do Google, mas se alguém souber como ensinar o JARVIS a dialogar sem usar o Google, MELHOR!
+
+- [ ] Fazer o JARVIS pesquisar na web, a partir de uma pergunta feita. (python)
+- [ ] Fazer o JARVIS pesquisar na web, a partir de uma pergunta feita. (node)
+
+... mais objetivos virão kkkk
+
+
+## Pocs/tests (arquivos de teste)
+Na pasta python/pocs-tests/google_speech_recognition/ **gsr.py** as libs instaladas foram:
+* SpeechRecognition [link](https://pypi.org/project/SpeechRecognition/)
+* PyAudio [link](https://pypi.org/project/PyAudio/)
+
+Na pasta python/pocs-tests/textToSpeech_using_pyttsx3/ **ttspeech.py** as lib instalada foi:
+* pyttsx3 [link](https://pypi.org/project/pyttsx3/)
+
+OBS: Apesar de precisar apenas essa lib, outras foram instaladas junto.
+
+
