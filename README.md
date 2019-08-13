@@ -35,20 +35,20 @@ Quero ter e dar, aos desenvolvedores interessados, liberdade para criarmos como 
 
 ***OBS: Sim, eu sei, a ideia é BEM complexa, por isso conto com a ajuda de desenvolvendores interessados***
 
-## Objetivos/Passos
-- [x] Reconhecimento de voz. (gsr.py)
-- [ ] Reconhecimento de voz. (node)
-- [x] Fazer o JARVIS falar. (ttspeech.py)
-- [ ] Fazer o JARVIS falar. (node)
-- [ ] Fazer perguntas, ao JARVIS e ele responder falando. (python)
-- [ ] Fazer perguntas, ao JARVIS e ele responder falando. (node)
-- [ ] Fazer o JARVIS pesquisar na web, a partir de uma pergunta feita. (python)
-- [ ] Fazer o JARVIS pesquisar na web, a partir de uma pergunta feita. (node)
+## Goals/Steps
+- [x] Voice recognition. (gsr.py)
+- [ ] Voice recognition. (node)
+- [x] Make JARVIS Talk. (ttspeech.py)
+- [ ] Make JARVIS Talk. (node)
+- [ ] Ask questions to JARVIS and it answer speaking. (python)
+- [ ] Ask questions to JARVIS and it answer speaking. (node)
+- [ ] Make JARVIS search on internet, from questions asked. (python)
+- [ ] Make JARVIS search on internet, from questions asked. (node)
 
 ... mais objetivos virão kkkk
 
 
-## Pocs/tests (arquivos de teste)
+## Pocs/tests (test files)
 Na pasta python/pocs-tests/google_speech_recognition/ **gsr.py** as libs instaladas foram:
 * SpeechRecognition [link](https://pypi.org/project/SpeechRecognition/)
 * PyAudio [link](https://pypi.org/project/PyAudio/)
@@ -56,9 +56,10 @@ Na pasta python/pocs-tests/google_speech_recognition/ **gsr.py** as libs instala
 Na pasta python/pocs-tests/textToSpeech_using_pyttsx3/ **ttspeech.py** as lib instalada foi:
 * pyttsx3 [link](https://pypi.org/project/pyttsx3/)
 
+OBS: Apesar de precisar apenas essa lib, outras foram instaladas junto.
+
 Na pasta python/pocs-tests/chatbot/ **chat.py** as lib instalada foi:
 * chatterbot [link](https://pypi.org/project/ChatterBot/)
 
-OBS: Apesar de precisar apenas essa lib, outras foram instaladas junto.
 
 
