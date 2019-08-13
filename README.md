@@ -42,9 +42,6 @@ Quero ter e dar, aos desenvolvedores interessados, liberdade para criarmos como 
 - [ ] Fazer o JARVIS falar. (node)
 - [ ] Fazer perguntas, ao JARVIS e ele responder falando. (python)
 - [ ] Fazer perguntas, ao JARVIS e ele responder falando. (node)
-
-OBS passo 3: Vou usar o Dialogflow do Google, mas se alguém souber como ensinar o JARVIS a dialogar sem usar o Google, MELHOR!
-
 - [ ] Fazer o JARVIS pesquisar na web, a partir de uma pergunta feita. (python)
 - [ ] Fazer o JARVIS pesquisar na web, a partir de uma pergunta feita. (node)
 
@@ -58,6 +55,9 @@ Na pasta python/pocs-tests/google_speech_recognition/ **gsr.py** as libs instala
 
 Na pasta python/pocs-tests/textToSpeech_using_pyttsx3/ **ttspeech.py** as lib instalada foi:
 * pyttsx3 [link](https://pypi.org/project/pyttsx3/)
+
+Na pasta python/pocs-tests/chatbot/ **chat.py** as lib instalada foi:
+* chatterbot [link](https://pypi.org/project/ChatterBot/)
 
 OBS: Apesar de precisar apenas essa lib, outras foram instaladas junto.
 
