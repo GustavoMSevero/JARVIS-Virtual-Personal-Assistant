@@ -1,9 +1,22 @@
+import speech_recognition as sr
+import pyttsx3
 from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
 
-bot = ChatBot('Jarvis')
+engine = pyttsx3.init()
 
-# greetings = ['Hi', 'Hello', 'Hello', 'Hi', 'Hey', 'Oh, hi', 'Oh, hi', 'hey, hello']
+engine.setProperty('rate', 200)
+engine.setProperty('volume', 0.5)
+
+voices = engine.getProperty('voices')
+
+engine.setProperty('voice', voices[0].id)
+
+r = sr.Recognizer()
+
+#######################
+
+bot = ChatBot('Jarvis')
 
 greetings_assistant = ['Hi Jarvis', 'Hello sir', 'Hello Jarvis', 'Hi sir']
 
@@ -33,7 +46,17 @@ trainer.train(calling_assistant)
 trainer.train(identification)
 trainer.train(purpose)
 
-while True:
-    question = input("You ")
-    answer = bot.get_response(question)
-    print("Assistant ", answer)
+with sr.Microphone() as source:
+    while True:
+        print('Say something: ')
+        audio = r.listen(source)
+        try:
+            text = r.recognize_google(audio)
+            print('You said: {}'.format(text))
+            textToTalk = bot.get_response(text)
+            print("Assistant ", textToTalk)
+            engine.say(textToTalk)
+            engine.runAndWait()
+            engine.stop()
+        except:
+            print('Sorry')
