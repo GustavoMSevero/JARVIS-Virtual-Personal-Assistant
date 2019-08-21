@@ -3,3 +3,5 @@ env/
 bin/
 include/
 lib/
+
+db.sqlite3
