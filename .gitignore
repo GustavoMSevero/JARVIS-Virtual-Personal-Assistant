@@ -4,4 +4,7 @@ bin/
 include/
 lib/
 
+.DS_Store
+.Python
+
 db.sqlite3
