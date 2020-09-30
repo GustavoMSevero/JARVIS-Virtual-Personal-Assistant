@@ -31,19 +31,15 @@ Existe a Siri(Apple), Google Assistant(Google), Alexa(Amazon), Watson(IBM) e Cor
 
 Há, também, um projeto chamdo Jarvis, porém, só roda no Windows! Fala e executamos comandos, mas não aprende.
 
-Quero ter e dar, aos desenvolvedores interessados, liberdade para criarmos como quisermos, então criei esse repositório para compartilharmos códigos para testes e irmos montando o assistent, em python e node.
+Quero ter e dar, aos desenvolvedores interessados, liberdade para criarmos como quisermos, então criei esse repositório para compartilharmos códigos para testes e irmos montando o assistent, em python.
 
 ***OBS: Sim, eu sei, a ideia é BEM complexa, por isso conto com a ajuda de desenvolvendores interessados***
 
 ## Goals/Steps
-- [x] Voice recognition. (gsr.py)
-- [ ] Voice recognition. (node)
-- [x] Make JARVIS Talk. (ttspeech.py)
-- [ ] Make JARVIS Talk. (node)
-- [ ] Ask questions to JARVIS and it answer speaking. (python)
-- [ ] Ask questions to JARVIS and it answer speaking. (node)
-- [ ] Make JARVIS search on internet, from questions asked. (python)
-- [ ] Make JARVIS search on internet, from questions asked. (node)
+- [x] Voice recognition.
+- [x] Make JARVIS Talk.
+- [ ] Ask questions to JARVIS and it answer speaking.
+- [ ] Make JARVIS search on internet, from questions asked.
 
 ... mais objetivos virão kkkk
 
@@ -57,9 +53,6 @@ Na pasta python/pocs-tests/textToSpeech_using_pyttsx3/ **ttspeech.py** as lib in
 * pyttsx3 [link](https://pypi.org/project/pyttsx3/)
 
 OBS: Apesar de precisar apenas essa lib, outras foram instaladas junto.
-
-Na pasta python/pocs-tests/chatbot/ **chat.py** as lib instalada foi:
-* chatterbot [link](https://pypi.org/project/ChatterBot/)
 
 
 
